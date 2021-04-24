@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Quadradro from './Components/Exemplo-css-inline/Quadrado';
+import Circulo from './Components/Exemplo-css-inline/Circulo';
+import Item1 from './Components/Exemplo-css-inline/Item1';
+import Imagem from './Components/Exemplo-css-externo/img/Image';
+import NavBar from './Components/Exemplo-com-framawork-css/NavBar';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    /*<div>
+        <Quadradro/><br/>
+        <Circulo cor='red'/><br/>
+        <Item1 cor='green'/>
+        <hr></hr>
+        <Imagem/>
+    </div>*/
+    <div>
+      <NavBar/>
     </div>
   );
 }
